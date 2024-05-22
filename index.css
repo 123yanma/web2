@@ -1,0 +1,144 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    position:relative;
+    
+}
+body img {
+    border-radius: 4%;
+    width: 15cm;
+}
+body img:hover {
+    width:  16cm;
+    border-radius: 4%;
+}
+
+header {
+    background-color: #e4dc75;
+    color: white;
+    text-align: center;
+    padding: 0.5rem 0;
+    transition: background-color 0.3s;
+}
+header h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1.3cm;
+    font-family: 'Times New Roman', Times, serif;
+}
+header h1:hover {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+}
+
+
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #ebdb84;
+    color: white;
+    border-radius: 5px;
+}
+
+section {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+h2 {
+    color: #756b31;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    transition: color 0.3s;
+}
+
+h2:hover {
+    color: #756221;
+}
+
+.producto {
+    background-color: white;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.producto:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    background-color: #ccce49;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #dae07b;
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    transition: background-color 0.3s;
+}
+
+footer:hover {
+    background-color: #444;
+}
+
+a {
+    color: #c0a21a;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #e9cb47;
+}
+
+i {
+    margin-right: 5px;
+}

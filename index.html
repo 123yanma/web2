@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Granja "La Joya del Corral"</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Granja "La Joya del Corral"</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <section id="inicio">
+        <h2>Bienvenidos a Nuestro Emprendimiento</h2>
+        <p>Nos dedicamos a la crianza de gallinas y pollos de engorde para la producción comercial de huevos y carne. Nuestra misión es ofrecer productos frescos y de alta calidad a nuestros clientes.</p>
+        <p>Este emprendimiento se está implementado recién en áreas rurales, en las que se realizan las ventas por ahora, está ubicado por el departamento de Huancavelica,provincia de Castrovirreyna, distrito de Cocas, y esta solo hábil por ahora en las zonas como son cocas, Castrovirreyna, Moyepampa, Chiris, y lugares cercanos a Cocas</p>
+        <h3>Se realiza delivery</h3>
+        <img src="granja.jpg" alt="Granja">
+        <img src="granja2.jpg" alt="Granja">
+    </section>
+    <section id="productos">
+        <h2>Productos</h2>
+        <div class="producto">
+            <h3>Huevos Frescos</h3>
+            <p>Precio: S/ 0.50 por huevo</p>
+            <button onclick="solicitarCompra('Huevos Frescos', 'S/ 0.50 por huevo')">Comprar</button>
+        </div>
+        <div class="producto">
+            <h3>Carne de pollo</h3>
+            <p>Precio: S/ 10 por kg</p>
+            <button onclick="solicitarCompra('Carne de pollo', 'S/ 10 por kg')">Comprar</button>
+        </div>
+        <div class="producto">
+            <h3>Carne de gallina </h3>
+            <p>Precio: S/ 8 por kg</p>
+            <button onclick="solicitarCompra('Carne de gallina', 'S/ 8 por kg')">Comprar</button>
+        </div>
+        <div class="producto">
+            <h3>Pollitos en venta</h3>
+            <p>Precio: S/ 15 el par</p>
+            <button onclick="solicitarCompra('Pollitos', 'S/ 15 el par')">Comprar</button>
+        </div>
+        <div class="producto">
+            <h3>Gallinas en venta</h3>
+            <p>Precio: S/ 25 cada uno</p>
+            <button onclick="solicitarCompra('Gallinas', 'S/ 25 cada uno')">Comprar</button>
+        </div>
+        <div class="producto">
+            <h3>Pollos en venta</h3>
+            <p>Precio: S/ 30 cada uno</p>
+            <button onclick="solicitarCompra('Pollos', 'S/ 30 cada uno')">Comprar</button>
+        </div>
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Teléfono: 991186526</p>
+        <p>WhatsApp: <a href="https://wa.me/51991186526" target="_blank"><i class="fab fa-whatsapp"></i> Enviar Mensaje</a></p>
+        <p>Email: <a href="mailto:yanmarcoslandeo@gmail.com"><i class="fas fa-envelope"></i> yanmarcoslandeo@gmail.com</a></p>
+        <h3>Se le agradece su recorrido por esta pagina web, esperamos ser contactados por usted. MUCHAS GRACIAS</h3>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Granja "La Joya del Corral"</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
